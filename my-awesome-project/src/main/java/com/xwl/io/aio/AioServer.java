@@ -5,7 +5,10 @@ import java.nio.channels.AsynchronousChannelGroup;
 import java.nio.channels.AsynchronousServerSocketChannel;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class AioServer {
 	private ExecutorService executorService;
 	private AsynchronousChannelGroup threadGroup;

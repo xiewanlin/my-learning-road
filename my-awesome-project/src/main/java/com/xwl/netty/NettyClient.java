@@ -8,7 +8,10 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class NettyClient {
 	public static void main(String[] args) {
 		String host = "127.0.0.1";

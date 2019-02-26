@@ -7,7 +7,10 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 /**
  * NIO 也称 New IO， Non-Block IO，非阻塞同步通信方式
  * 从BIO的阻塞到NIO的非阻塞，这是一大进步。功归于Buffer，Channel，Selector三个设计实现。

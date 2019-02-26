@@ -7,7 +7,10 @@ import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.util.CharsetUtil;
 import io.netty.util.ReferenceCountUtil;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class NettyClientHandler extends ChannelHandlerAdapter {
 
 	@Override

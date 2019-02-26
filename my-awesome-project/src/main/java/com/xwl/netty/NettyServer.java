@@ -8,7 +8,10 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class NettyServer {
 	private int port;
 

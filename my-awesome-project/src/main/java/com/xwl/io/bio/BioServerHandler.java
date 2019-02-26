@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class BioServerHandler implements Runnable {
 
 	private Socket socket;

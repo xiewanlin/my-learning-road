@@ -2,7 +2,10 @@ package com.xwl.spring.proxy;
 
 import com.xwl.spring.proxy.service.Greeting;
 import com.xwl.spring.proxy.service.impl.GreetingImpl;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class StaticProxyGreet {
 	public static void main(String[] args) {
 		Greeting proxy = new StaticProxy(new GreetingImpl());

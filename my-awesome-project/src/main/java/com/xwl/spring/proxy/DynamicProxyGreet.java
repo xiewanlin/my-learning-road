@@ -6,7 +6,10 @@ import java.lang.reflect.Proxy;
 
 import com.xwl.spring.proxy.service.Greeting;
 import com.xwl.spring.proxy.service.impl.GreetingImpl;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class DynamicProxyGreet {
 	public static void main(String[] args) {
 		//不能替换为GreetingImpl，动态代理只能代理接口

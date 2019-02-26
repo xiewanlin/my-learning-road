@@ -6,6 +6,10 @@ import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class MyThreadPool {
 
 	private static MyThreadPool myThreadPool = null;

@@ -4,7 +4,10 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class NioClient {
 	private final static int PORT = 8888;  
     private final static int BUFFER_SIZE = 1024;  

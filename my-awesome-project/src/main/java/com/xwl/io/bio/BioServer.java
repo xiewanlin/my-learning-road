@@ -5,7 +5,10 @@ import java.net.Socket;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class BioServer {
 	private static final int PORT = 8888;
 	

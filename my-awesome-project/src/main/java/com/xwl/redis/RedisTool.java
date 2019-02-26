@@ -2,7 +2,10 @@ package com.xwl.redis;
 
 import java.util.Collections;
 import redis.clients.jedis.Jedis;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class RedisTool {
 	 
     private static final Long RELEASE_SUCCESS = 1L;

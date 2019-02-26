@@ -8,7 +8,10 @@ import org.springframework.cglib.proxy.MethodProxy;
 
 import com.xwl.spring.proxy.service.Greeting;
 import com.xwl.spring.proxy.service.impl.GreetingImpl;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class CglibProxyGreet {
 	public static void main(String[] args) {
 		//可以代替为GreetingImpl，即cglib可以代理没有接口的类

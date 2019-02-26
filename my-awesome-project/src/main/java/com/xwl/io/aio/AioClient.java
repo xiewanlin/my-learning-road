@@ -3,7 +3,10 @@ package com.xwl.io.aio;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousSocketChannel;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class AioClient implements Runnable{
 
 	private static int PORT = 8888;

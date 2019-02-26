@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class BioClient {
 	private static int PORT = 8888;
 	private static String IP = "127.0.0.1";

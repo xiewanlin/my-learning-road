@@ -10,7 +10,10 @@ import com.lmax.disruptor.ExceptionHandler;
 import com.lmax.disruptor.RingBuffer;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.dsl.ProducerType;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class DisruptorTest {
 	
 	/**

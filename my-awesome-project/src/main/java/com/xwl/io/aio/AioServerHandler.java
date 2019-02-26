@@ -3,7 +3,10 @@ package com.xwl.io.aio;
 import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
-
+/**
+* @author xiewanlin
+* @date 2019年2月26日
+*/
 public class AioServerHandler implements CompletionHandler<AsynchronousSocketChannel, AioServer>{
 	
 	private final int BUFFER_SIZE = 1024;

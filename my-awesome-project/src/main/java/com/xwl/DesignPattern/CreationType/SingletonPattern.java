@@ -26,11 +26,11 @@ class SingletonHungry {
 }
 
 class SingletonLazy {
-  private volatile static SingletonLazy instance;
+  private volatile static SingletonLazy instance=null;//延迟加载
   private SingletonLazy(){};
   public static SingletonLazy getInstance() {
     if (instance == null) {
-      synchronized(SingletonLazy.class){
+      synchronized(instance){
         if (instance == null) {
           instance = new SingletonLazy();
         }
@@ -38,4 +38,17 @@ class SingletonLazy {
     }
     return instance;
   }
+}
+
+class SingletonInner {
+  private SingletonInner(){}
+
+  private static class SingletonFactory {
+    private static SingletonInner instance = new SingletonInner();
+  }
+  /** 获取实例*/
+  public static SingletonInner getInstance() {
+    return SingletonFactory.instance;
+  }
+
 }

@@ -29,7 +29,7 @@ public class NettyServer {
          * 如何知道多少个线程已经被使用，如何映射到已经创建的Channels上都需要依赖于EventLoopGroup的实现，
          * 并且可以通过构造函数来配置他们的关系。
          */
-        EventLoopGroup bossGroup = new NioEventLoopGroup();
+        EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         System.out.println("netty server start with " + port + "...");
         try {
